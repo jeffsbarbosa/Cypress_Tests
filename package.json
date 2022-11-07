@@ -1,0 +1,19 @@
+{
+  "name": "bugereats",
+  "version": "1.0.0",
+  "description": "Projeto de Testes de aceitação do app bugereats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Jefferson",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "file": "^0.2.2"
+  }
+}
