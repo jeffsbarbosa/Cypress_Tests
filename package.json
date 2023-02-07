@@ -1,14 +1,32 @@
 {
+<<<<<<< HEAD
   "name": "automation_novocard",
   "version": "1.0.0",
   "description": "\"Automações de teste do novo Ecard\"",
+=======
+  "name": "bugereats",
+  "version": "1.0.0",
+  "description": "Projeto de Testes de aceitação do app bugereats",
+>>>>>>> 97cea6a6cb38c77a87f799f756e527daddb26745
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
   },
+<<<<<<< HEAD
   "author": "Jefferson Barbosa",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^11.0.1"
+=======
+  "author": "Jefferson",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "file": "^0.2.2"
+>>>>>>> 97cea6a6cb38c77a87f799f756e527daddb26745
   }
 }
